@@ -1,12 +1,13 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyDNvpaCcX9LKVPXNnDEFJl26etHrN8GvEY",
-  authDomain: "list-6b67f.firebaseapp.com",
-  databaseURL: "https://list-6b67f-default-rtdb.firebaseio.com",
-  projectId: "list-6b67f",
-  storageBucket: "list-6b67f.appspot.com",
-  messagingSenderId: "956812546352",
-  appId: "1:956812546352:web:594d7e084a47d17217b8f5"
+  apiKey: "AIzaSyDh07ospSe5sv_5w7eM4_E52h9CvoD3JqY",
+  authDomain: "checklist-547c1.firebaseapp.com",
+  databaseURL: "https://checklist-547c1-default-rtdb.firebaseio.com",
+  projectId: "checklist-547c1",
+  storageBucket: "checklist-547c1.appspot.com",
+  messagingSenderId: "203935172439",
+  appId: "1:203935172439:web:06f1cb9d95e4640cff2012"
 };
+
   
   // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
@@ -45,6 +46,8 @@ document.getElementById("output").innerHTML += row;
 });
 
 }
+
+
 
 
 function del(){
